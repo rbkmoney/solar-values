@@ -3,4 +3,6 @@ environments:
     values:
       - default.values.yaml
   devstand:
+    values:
+      - dev.values.yaml
   production:

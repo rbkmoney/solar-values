@@ -12,6 +12,7 @@ repositories:
 
 releases:
 - name: provisioner
+  installed: {{ .Values.provisioner.enabled }}
   <<: *infra_default
   namespace: local-path
   chart: charts/provisioner
